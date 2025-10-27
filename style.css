@@ -11,3 +11,21 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+
+.caja{
+    height: 100px;
+    margin-top: 10px;
+    color: white;
+}
+
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 30px;
+  padding: 40px;
+  font-size: 30px;
+}
