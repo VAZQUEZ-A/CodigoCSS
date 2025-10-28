@@ -23,6 +23,7 @@ p {
 
 .container {
   display: flex;
+  flex-direction: row;
   background-color: DodgerBlue;
 }
 
@@ -32,6 +33,5 @@ p {
   padding: 50px;
   padding-top: 10px;
   font-size: 30px;
-  display: flex;
-  flex-direction: row;
 }
+
