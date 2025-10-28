@@ -3,19 +3,22 @@ body {
 }
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
+  background-color: blanchedalmond;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
+  background-color: aliceblue;
+  text-align: center;
 }
 
 .caja{
     height: 100px;
     margin-top: 10px;
-    color: white;
+    color: black;
 }
 
 .container {
@@ -26,6 +29,9 @@ p {
 .container div {
   background-color: #f1f1f1;
   margin: 30px;
-  padding: 40px;
+  padding: 50px;
+  padding-top: 10px;
   font-size: 30px;
+  display: flex;
+  flex-direction: row;
 }
