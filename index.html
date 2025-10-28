@@ -6,6 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+        <style>
+            .tabla{
+                width: auto; 
+                border: 1px; 
+                border: solid;
+            }
+        </style>
 <body>
     <h1>Prueba color</h1>
     <p>Prueba de color 2</p>
@@ -14,5 +21,77 @@
         <div class="caja">2</div>
         <div class="caja">3</div>
     </div>
+<hr>
+    <div>
+        <p><strong>Tipos </strong><em> de </em>Patos</p>
+        <img src="pato.jpg" alt="Pato" style="width: 50%; margin-left: 200px;">
+        <ul>
+            <li>Pato quac</li>
+            <li>Pato Donald</li>
+            <li>Patito feo</li>
+        </ul>
+        <ol>
+            <li>Pato quac</li>
+            <li>Pato Donald</li>
+            <li>Patito feo</li>
+        </ol>
+
+        <br>
+        <p>Visita<a href="https://www.rtve.es/play/videos/grandes-documentales/grandes-documentales-original-documental-patos/3162492/" target="_blank"> Documental </a>
+        </p>
+        <table style="width: auto; border: 1px; border: solid;">
+            <tr>
+                <th class="tabla">patos</th>
+                <th class="tabla">patitos</th>
+            </tr>
+            <tr>
+                <td class="tabla">patos2</td>
+                <td class="tabla">patitos2</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+
+        <p>ADOPTA UN PATO</p>
+
+        <a><strong>Rellene los datos para la adopción:</strong></a>
+
+        <form action="/submit" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <a>Patito que quieras adoptar</a>
+        <input type="radio" name="genero" value="Macho"> Macho
+        <input type="radio" name="genero" value="Hembra"> Hembra
+        <br>
+        <a>Suba el archivo con su DNI</a>
+        <input type="file" name="archivo">
+        <br>
+        <a>¿De qué edad adoptaría al pato?</a>
+        <select name="pais">
+            <option value="1 año">1 año</option>
+            <option value="2 años">2 años</option>
+            <option value="5 años">5 años</option>
+        </select>
+        
+        <br><br>
+        <!--<input type="range" name="rango" min="0" max="100" step="10">-->
+        <input type="checkbox" name="acepto-terminos"> Acepto los términos y condiciones
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    </div>
 </body>
+
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web</p>
+    </footer>
 </html>
